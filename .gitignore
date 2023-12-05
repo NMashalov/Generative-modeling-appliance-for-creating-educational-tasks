@@ -1,0 +1,7 @@
+# Latex building files
+*.aux
+*.fls
+*.log
+*.gz
+*.log
+*.fdb_latexmk
