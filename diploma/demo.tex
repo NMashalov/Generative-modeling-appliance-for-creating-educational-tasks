@@ -1,6 +1,6 @@
-\documentclass{mipt-thesis-bs}
+\documentclass{./mipt-thesis-bs}
 % Следующие две строки нужны только для biblatex. Для inline-библиографии их следует убрать.
-\usepackage{mipt-thesis-biblatex}
+\usepackage{./mipt-thesis-biblatex}
 \usepackage[justification=centering]{caption}
 \usepackage{glossaries}
 \usepackage{url}
@@ -8,21 +8,18 @@
 \addbibresource{Diplom.bib}
 
 
-\title{Обработка данных наземной калибровки фурье-спектрометра ФАСТ (ЭкзоМарс-2022)}
-\author{Машалов Никита Евгеньевич}
-\supervisor{ Шакун Алексей Владимирович,
-	канд. физ.-мат. наук}
+\title{Language model}
+\author{Mashalov Nikita}
+\supervisor{,}
 %\referee{Петров Д.\,Е.}       % требуется только для mipt-thesis-ms
 \groupnum{БО2-886}
 \faculty{Физтех-школа физики и исследований им. Ландау}
 \department{Кафедра космической физики}
 
 
-\documentclass[12pt,a4paper]{article}
-
 \begin{document}
 
-in free access on Github
+
 
 
 Proposed work was built at the intersection of pedagogy and machine learning. 
@@ -33,19 +30,18 @@ Was provided with convenient UI interface
 
 1. 
 
-Some key viewpoints on datasets collection were introduced.
-
 \begin{itemize}
     \item usage of high quality data;
     \item ;
 \end{itemize};
 
-2. Dataset collection
+2. Подготовка датасета
 
 
 Following 
 
-Despite being Hopefully were finacially accessible 
+Despite being finacially obligatory. It seamed to be reasonable
+to augment model with  
 
 In further chapter will look through advances of 
 
@@ -82,4 +78,16 @@ flexibility adaption
 
 \end{document}
 
+
+\chapter{Technical cover}
+
+1. Language model
+
+\begin{equation}
+    B(\sigma)= \int^{\infty}_{-\infty} \left[ I(\delta)-\frac{1}{2} I(0)\right] e^{-i2\pi\sigma\delta} d\delta,
+    \label{eqn_basicspectro}
+\end{equation}
+
+
+Языковые модели
 
