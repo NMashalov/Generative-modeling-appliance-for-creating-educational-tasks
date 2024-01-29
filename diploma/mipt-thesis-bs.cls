@@ -27,7 +27,6 @@
 %\RequirePackage{nopageno}
 %\RequirePackage{tocloft}
 % Style file with additional packages
-\RequirePackage{mipt-thesis}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Set up correct formatting %%%%%
