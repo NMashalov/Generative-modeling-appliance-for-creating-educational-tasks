@@ -9,4 +9,7 @@
 *.bcf
 *.bbl
 *.blg
+*.dvi
+*.blg
+*.bbl
 
