@@ -1,4 +1,5 @@
 #!/bin/bash
 cd tex
-biber $1
-latexmk .
+pdflatex main.tex
+biber main
+pdflatex main.tex
