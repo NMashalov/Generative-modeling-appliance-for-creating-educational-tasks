@@ -11,6 +11,7 @@ It aims to build coherent and sophisticated physics and math tasks and illustrat
 |Presentation| Presentation Pdf| [Github](/diploma/pres.tex)|
 |Dataset| |[HuggingFace](https://huggingface.co/datasets/NMashalov/task_illustrations_dataset)|
 |Model| YOLO model for extraction illustrations from books|[HuggingFace](https://huggingface.co/datasets/NMashalov/task_illustrations_dataset)|
+|Framework|SchuemakerOCR|[Github](https://huggingface.co/datasets/NMashalov/task_illustrations_dataset)|
 
 ## Description
 
